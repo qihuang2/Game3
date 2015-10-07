@@ -1,5 +1,4 @@
 # Game3
-iOS Game
 
 This iOS game is written using Swift and SpriteKit.
 
