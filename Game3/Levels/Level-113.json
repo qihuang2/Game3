@@ -1,0 +1,17 @@
+{
+    "floor" :
+    [
+        "roooooooo",
+        "oooo.oooo",
+        "oooo.oooo",
+        "ooo!ooooo",
+        "o..o.o..d",
+        "ooooooaoo",
+        "oooo.rooo",
+        "oooo.oooo",
+        "arooooooo"
+     
+    ],
+    "hero" : [5,5]
+    
+}

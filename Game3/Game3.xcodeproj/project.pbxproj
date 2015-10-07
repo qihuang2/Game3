@@ -1,0 +1,1264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB0FC8751BC4AAD6003C9C93 /* Game3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FC8741BC4AAD6003C9C93 /* Game3Tests.swift */; };
+		DB0FC9151BC4AB59003C9C93 /* Level-1.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC87F1BC4AB59003C9C93 /* Level-1.json */; };
+		DB0FC9161BC4AB59003C9C93 /* Level-10.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8801BC4AB59003C9C93 /* Level-10.json */; };
+		DB0FC9171BC4AB59003C9C93 /* Level-100.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8811BC4AB59003C9C93 /* Level-100.json */; };
+		DB0FC9181BC4AB59003C9C93 /* Level-101.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8821BC4AB59003C9C93 /* Level-101.json */; };
+		DB0FC9191BC4AB59003C9C93 /* Level-102.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8831BC4AB59003C9C93 /* Level-102.json */; };
+		DB0FC91A1BC4AB59003C9C93 /* Level-103.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8841BC4AB59003C9C93 /* Level-103.json */; };
+		DB0FC91B1BC4AB59003C9C93 /* Level-104.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8851BC4AB59003C9C93 /* Level-104.json */; };
+		DB0FC91C1BC4AB59003C9C93 /* Level-105.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8861BC4AB59003C9C93 /* Level-105.json */; };
+		DB0FC91D1BC4AB59003C9C93 /* Level-106.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8871BC4AB59003C9C93 /* Level-106.json */; };
+		DB0FC91E1BC4AB59003C9C93 /* Level-107.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8881BC4AB59003C9C93 /* Level-107.json */; };
+		DB0FC91F1BC4AB59003C9C93 /* Level-108.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8891BC4AB59003C9C93 /* Level-108.json */; };
+		DB0FC9201BC4AB59003C9C93 /* Level-109.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC88A1BC4AB59003C9C93 /* Level-109.json */; };
+		DB0FC9211BC4AB59003C9C93 /* Level-11.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC88B1BC4AB59003C9C93 /* Level-11.json */; };
+		DB0FC9221BC4AB59003C9C93 /* Level-110.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC88C1BC4AB59003C9C93 /* Level-110.json */; };
+		DB0FC9231BC4AB59003C9C93 /* Level-111.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC88D1BC4AB59003C9C93 /* Level-111.json */; };
+		DB0FC9241BC4AB59003C9C93 /* Level-112.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC88E1BC4AB59003C9C93 /* Level-112.json */; };
+		DB0FC9251BC4AB59003C9C93 /* Level-113.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC88F1BC4AB59003C9C93 /* Level-113.json */; };
+		DB0FC9261BC4AB59003C9C93 /* Level-114.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8901BC4AB59003C9C93 /* Level-114.json */; };
+		DB0FC9271BC4AB59003C9C93 /* Level-115.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8911BC4AB59003C9C93 /* Level-115.json */; };
+		DB0FC9281BC4AB59003C9C93 /* Level-116.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8921BC4AB59003C9C93 /* Level-116.json */; };
+		DB0FC9291BC4AB59003C9C93 /* Level-117.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8931BC4AB59003C9C93 /* Level-117.json */; };
+		DB0FC92A1BC4AB59003C9C93 /* Level-118.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8941BC4AB59003C9C93 /* Level-118.json */; };
+		DB0FC92B1BC4AB59003C9C93 /* Level-119.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8951BC4AB59003C9C93 /* Level-119.json */; };
+		DB0FC92C1BC4AB59003C9C93 /* Level-12.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8961BC4AB59003C9C93 /* Level-12.json */; };
+		DB0FC92D1BC4AB59003C9C93 /* Level-120.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8971BC4AB59003C9C93 /* Level-120.json */; };
+		DB0FC92E1BC4AB59003C9C93 /* Level-121.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8981BC4AB59003C9C93 /* Level-121.json */; };
+		DB0FC92F1BC4AB59003C9C93 /* Level-122.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8991BC4AB59003C9C93 /* Level-122.json */; };
+		DB0FC9301BC4AB59003C9C93 /* Level-123.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC89A1BC4AB59003C9C93 /* Level-123.json */; };
+		DB0FC9311BC4AB59003C9C93 /* Level-124.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC89B1BC4AB59003C9C93 /* Level-124.json */; };
+		DB0FC9321BC4AB59003C9C93 /* Level-125.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC89C1BC4AB59003C9C93 /* Level-125.json */; };
+		DB0FC9331BC4AB59003C9C93 /* Level-126.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC89D1BC4AB59003C9C93 /* Level-126.json */; };
+		DB0FC9341BC4AB59003C9C93 /* Level-127.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC89E1BC4AB59003C9C93 /* Level-127.json */; };
+		DB0FC9351BC4AB59003C9C93 /* Level-128.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC89F1BC4AB59003C9C93 /* Level-128.json */; };
+		DB0FC9361BC4AB59003C9C93 /* Level-129.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8A01BC4AB59003C9C93 /* Level-129.json */; };
+		DB0FC9371BC4AB59003C9C93 /* Level-13.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8A11BC4AB59003C9C93 /* Level-13.json */; };
+		DB0FC9381BC4AB59003C9C93 /* Level-130.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8A21BC4AB59003C9C93 /* Level-130.json */; };
+		DB0FC9391BC4AB59003C9C93 /* Level-131.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8A31BC4AB59003C9C93 /* Level-131.json */; };
+		DB0FC93A1BC4AB59003C9C93 /* Level-132.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8A41BC4AB59003C9C93 /* Level-132.json */; };
+		DB0FC93B1BC4AB59003C9C93 /* Level-133.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8A51BC4AB59003C9C93 /* Level-133.json */; };
+		DB0FC93C1BC4AB59003C9C93 /* Level-134.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8A61BC4AB59003C9C93 /* Level-134.json */; };
+		DB0FC93D1BC4AB59003C9C93 /* Level-135.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8A71BC4AB59003C9C93 /* Level-135.json */; };
+		DB0FC93E1BC4AB59003C9C93 /* Level-136.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8A81BC4AB59003C9C93 /* Level-136.json */; };
+		DB0FC93F1BC4AB59003C9C93 /* Level-137.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8A91BC4AB59003C9C93 /* Level-137.json */; };
+		DB0FC9401BC4AB59003C9C93 /* Level-138.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8AA1BC4AB59003C9C93 /* Level-138.json */; };
+		DB0FC9411BC4AB59003C9C93 /* Level-139.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8AB1BC4AB59003C9C93 /* Level-139.json */; };
+		DB0FC9421BC4AB59003C9C93 /* Level-14.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8AC1BC4AB59003C9C93 /* Level-14.json */; };
+		DB0FC9431BC4AB59003C9C93 /* Level-140.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8AD1BC4AB59003C9C93 /* Level-140.json */; };
+		DB0FC9441BC4AB59003C9C93 /* Level-141.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8AE1BC4AB59003C9C93 /* Level-141.json */; };
+		DB0FC9451BC4AB59003C9C93 /* Level-142.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8AF1BC4AB59003C9C93 /* Level-142.json */; };
+		DB0FC9461BC4AB59003C9C93 /* Level-143.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8B01BC4AB59003C9C93 /* Level-143.json */; };
+		DB0FC9471BC4AB59003C9C93 /* Level-144.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8B11BC4AB59003C9C93 /* Level-144.json */; };
+		DB0FC9481BC4AB59003C9C93 /* Level-145.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8B21BC4AB59003C9C93 /* Level-145.json */; };
+		DB0FC9491BC4AB59003C9C93 /* Level-146.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8B31BC4AB59003C9C93 /* Level-146.json */; };
+		DB0FC94A1BC4AB59003C9C93 /* Level-147.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8B41BC4AB59003C9C93 /* Level-147.json */; };
+		DB0FC94B1BC4AB59003C9C93 /* Level-148.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8B51BC4AB59003C9C93 /* Level-148.json */; };
+		DB0FC94C1BC4AB59003C9C93 /* Level-149.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8B61BC4AB59003C9C93 /* Level-149.json */; };
+		DB0FC94D1BC4AB59003C9C93 /* Level-15.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8B71BC4AB59003C9C93 /* Level-15.json */; };
+		DB0FC94E1BC4AB59003C9C93 /* Level-150.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8B81BC4AB59003C9C93 /* Level-150.json */; };
+		DB0FC94F1BC4AB59003C9C93 /* Level-16.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8B91BC4AB59003C9C93 /* Level-16.json */; };
+		DB0FC9501BC4AB59003C9C93 /* Level-17.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8BA1BC4AB59003C9C93 /* Level-17.json */; };
+		DB0FC9511BC4AB59003C9C93 /* Level-18.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8BB1BC4AB59003C9C93 /* Level-18.json */; };
+		DB0FC9521BC4AB59003C9C93 /* Level-19.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8BC1BC4AB59003C9C93 /* Level-19.json */; };
+		DB0FC9531BC4AB59003C9C93 /* Level-2.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8BD1BC4AB59003C9C93 /* Level-2.json */; };
+		DB0FC9541BC4AB59003C9C93 /* Level-20.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8BE1BC4AB59003C9C93 /* Level-20.json */; };
+		DB0FC9551BC4AB59003C9C93 /* Level-21.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8BF1BC4AB59003C9C93 /* Level-21.json */; };
+		DB0FC9561BC4AB59003C9C93 /* Level-22.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8C01BC4AB59003C9C93 /* Level-22.json */; };
+		DB0FC9571BC4AB59003C9C93 /* Level-23.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8C11BC4AB59003C9C93 /* Level-23.json */; };
+		DB0FC9581BC4AB59003C9C93 /* Level-24.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8C21BC4AB59003C9C93 /* Level-24.json */; };
+		DB0FC9591BC4AB59003C9C93 /* Level-25.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8C31BC4AB59003C9C93 /* Level-25.json */; };
+		DB0FC95A1BC4AB59003C9C93 /* Level-26.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8C41BC4AB59003C9C93 /* Level-26.json */; };
+		DB0FC95B1BC4AB59003C9C93 /* Level-27.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8C51BC4AB59003C9C93 /* Level-27.json */; };
+		DB0FC95C1BC4AB59003C9C93 /* Level-28.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8C61BC4AB59003C9C93 /* Level-28.json */; };
+		DB0FC95D1BC4AB59003C9C93 /* Level-29.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8C71BC4AB59003C9C93 /* Level-29.json */; };
+		DB0FC95E1BC4AB59003C9C93 /* Level-3.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8C81BC4AB59003C9C93 /* Level-3.json */; };
+		DB0FC95F1BC4AB59003C9C93 /* Level-30.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8C91BC4AB59003C9C93 /* Level-30.json */; };
+		DB0FC9601BC4AB59003C9C93 /* Level-31.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8CA1BC4AB59003C9C93 /* Level-31.json */; };
+		DB0FC9611BC4AB59003C9C93 /* Level-32.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8CB1BC4AB59003C9C93 /* Level-32.json */; };
+		DB0FC9621BC4AB59003C9C93 /* Level-33.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8CC1BC4AB59003C9C93 /* Level-33.json */; };
+		DB0FC9631BC4AB59003C9C93 /* Level-34.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8CD1BC4AB59003C9C93 /* Level-34.json */; };
+		DB0FC9641BC4AB59003C9C93 /* Level-35.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8CE1BC4AB59003C9C93 /* Level-35.json */; };
+		DB0FC9651BC4AB59003C9C93 /* Level-36.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8CF1BC4AB59003C9C93 /* Level-36.json */; };
+		DB0FC9661BC4AB59003C9C93 /* Level-37.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8D01BC4AB59003C9C93 /* Level-37.json */; };
+		DB0FC9671BC4AB59003C9C93 /* Level-38.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8D11BC4AB59003C9C93 /* Level-38.json */; };
+		DB0FC9681BC4AB59003C9C93 /* Level-39.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8D21BC4AB59003C9C93 /* Level-39.json */; };
+		DB0FC9691BC4AB59003C9C93 /* Level-4.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8D31BC4AB59003C9C93 /* Level-4.json */; };
+		DB0FC96A1BC4AB59003C9C93 /* Level-40.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8D41BC4AB59003C9C93 /* Level-40.json */; };
+		DB0FC96B1BC4AB59003C9C93 /* Level-41.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8D51BC4AB59003C9C93 /* Level-41.json */; };
+		DB0FC96C1BC4AB59003C9C93 /* Level-42.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8D61BC4AB59003C9C93 /* Level-42.json */; };
+		DB0FC96D1BC4AB59003C9C93 /* Level-43.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8D71BC4AB59003C9C93 /* Level-43.json */; };
+		DB0FC96E1BC4AB59003C9C93 /* Level-44.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8D81BC4AB59003C9C93 /* Level-44.json */; };
+		DB0FC96F1BC4AB59003C9C93 /* Level-45.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8D91BC4AB59003C9C93 /* Level-45.json */; };
+		DB0FC9701BC4AB59003C9C93 /* Level-46.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8DA1BC4AB59003C9C93 /* Level-46.json */; };
+		DB0FC9711BC4AB59003C9C93 /* Level-47.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8DB1BC4AB59003C9C93 /* Level-47.json */; };
+		DB0FC9721BC4AB59003C9C93 /* Level-48.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8DC1BC4AB59003C9C93 /* Level-48.json */; };
+		DB0FC9731BC4AB59003C9C93 /* Level-49.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8DD1BC4AB59003C9C93 /* Level-49.json */; };
+		DB0FC9741BC4AB59003C9C93 /* Level-5.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8DE1BC4AB59003C9C93 /* Level-5.json */; };
+		DB0FC9751BC4AB59003C9C93 /* Level-50.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8DF1BC4AB59003C9C93 /* Level-50.json */; };
+		DB0FC9761BC4AB59003C9C93 /* Level-51.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8E01BC4AB59003C9C93 /* Level-51.json */; };
+		DB0FC9771BC4AB59003C9C93 /* Level-52.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8E11BC4AB59003C9C93 /* Level-52.json */; };
+		DB0FC9781BC4AB59003C9C93 /* Level-53.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8E21BC4AB59003C9C93 /* Level-53.json */; };
+		DB0FC9791BC4AB59003C9C93 /* Level-54.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8E31BC4AB59003C9C93 /* Level-54.json */; };
+		DB0FC97A1BC4AB59003C9C93 /* Level-55.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8E41BC4AB59003C9C93 /* Level-55.json */; };
+		DB0FC97B1BC4AB59003C9C93 /* Level-56.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8E51BC4AB59003C9C93 /* Level-56.json */; };
+		DB0FC97C1BC4AB59003C9C93 /* Level-57.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8E61BC4AB59003C9C93 /* Level-57.json */; };
+		DB0FC97D1BC4AB59003C9C93 /* Level-58.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8E71BC4AB59003C9C93 /* Level-58.json */; };
+		DB0FC97E1BC4AB59003C9C93 /* Level-59.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8E81BC4AB59003C9C93 /* Level-59.json */; };
+		DB0FC97F1BC4AB59003C9C93 /* Level-6.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8E91BC4AB59003C9C93 /* Level-6.json */; };
+		DB0FC9801BC4AB59003C9C93 /* Level-60.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8EA1BC4AB59003C9C93 /* Level-60.json */; };
+		DB0FC9811BC4AB59003C9C93 /* Level-61.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8EB1BC4AB59003C9C93 /* Level-61.json */; };
+		DB0FC9821BC4AB59003C9C93 /* Level-62.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8EC1BC4AB59003C9C93 /* Level-62.json */; };
+		DB0FC9831BC4AB59003C9C93 /* Level-63.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8ED1BC4AB59003C9C93 /* Level-63.json */; };
+		DB0FC9841BC4AB59003C9C93 /* Level-64.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8EE1BC4AB59003C9C93 /* Level-64.json */; };
+		DB0FC9851BC4AB59003C9C93 /* Level-65.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8EF1BC4AB59003C9C93 /* Level-65.json */; };
+		DB0FC9861BC4AB59003C9C93 /* Level-66.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8F01BC4AB59003C9C93 /* Level-66.json */; };
+		DB0FC9871BC4AB59003C9C93 /* Level-67.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8F11BC4AB59003C9C93 /* Level-67.json */; };
+		DB0FC9881BC4AB59003C9C93 /* Level-68.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8F21BC4AB59003C9C93 /* Level-68.json */; };
+		DB0FC9891BC4AB59003C9C93 /* Level-69.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8F31BC4AB59003C9C93 /* Level-69.json */; };
+		DB0FC98A1BC4AB59003C9C93 /* Level-7.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8F41BC4AB59003C9C93 /* Level-7.json */; };
+		DB0FC98B1BC4AB59003C9C93 /* Level-70.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8F51BC4AB59003C9C93 /* Level-70.json */; };
+		DB0FC98C1BC4AB59003C9C93 /* Level-71.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8F61BC4AB59003C9C93 /* Level-71.json */; };
+		DB0FC98D1BC4AB59003C9C93 /* Level-72.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8F71BC4AB59003C9C93 /* Level-72.json */; };
+		DB0FC98E1BC4AB59003C9C93 /* Level-73.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8F81BC4AB59003C9C93 /* Level-73.json */; };
+		DB0FC98F1BC4AB59003C9C93 /* Level-74.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8F91BC4AB59003C9C93 /* Level-74.json */; };
+		DB0FC9901BC4AB59003C9C93 /* Level-75.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8FA1BC4AB59003C9C93 /* Level-75.json */; };
+		DB0FC9911BC4AB59003C9C93 /* Level-76.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8FB1BC4AB59003C9C93 /* Level-76.json */; };
+		DB0FC9921BC4AB59003C9C93 /* Level-77.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8FC1BC4AB59003C9C93 /* Level-77.json */; };
+		DB0FC9931BC4AB59003C9C93 /* Level-78.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8FD1BC4AB59003C9C93 /* Level-78.json */; };
+		DB0FC9941BC4AB59003C9C93 /* Level-79.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8FE1BC4AB59003C9C93 /* Level-79.json */; };
+		DB0FC9951BC4AB59003C9C93 /* Level-8.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC8FF1BC4AB59003C9C93 /* Level-8.json */; };
+		DB0FC9961BC4AB59003C9C93 /* Level-80.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9001BC4AB59003C9C93 /* Level-80.json */; };
+		DB0FC9971BC4AB59003C9C93 /* Level-81.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9011BC4AB59003C9C93 /* Level-81.json */; };
+		DB0FC9981BC4AB59003C9C93 /* Level-82.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9021BC4AB59003C9C93 /* Level-82.json */; };
+		DB0FC9991BC4AB59003C9C93 /* Level-83.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9031BC4AB59003C9C93 /* Level-83.json */; };
+		DB0FC99A1BC4AB59003C9C93 /* Level-84.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9041BC4AB59003C9C93 /* Level-84.json */; };
+		DB0FC99B1BC4AB59003C9C93 /* Level-85.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9051BC4AB59003C9C93 /* Level-85.json */; };
+		DB0FC99C1BC4AB59003C9C93 /* Level-86.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9061BC4AB59003C9C93 /* Level-86.json */; };
+		DB0FC99D1BC4AB59003C9C93 /* Level-87.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9071BC4AB59003C9C93 /* Level-87.json */; };
+		DB0FC99E1BC4AB59003C9C93 /* Level-88.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9081BC4AB59003C9C93 /* Level-88.json */; };
+		DB0FC99F1BC4AB59003C9C93 /* Level-89.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9091BC4AB59003C9C93 /* Level-89.json */; };
+		DB0FC9A01BC4AB59003C9C93 /* Level-9.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC90A1BC4AB59003C9C93 /* Level-9.json */; };
+		DB0FC9A11BC4AB59003C9C93 /* Level-90.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC90B1BC4AB59003C9C93 /* Level-90.json */; };
+		DB0FC9A21BC4AB59003C9C93 /* Level-91.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC90C1BC4AB59003C9C93 /* Level-91.json */; };
+		DB0FC9A31BC4AB59003C9C93 /* Level-92.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC90D1BC4AB59003C9C93 /* Level-92.json */; };
+		DB0FC9A41BC4AB59003C9C93 /* Level-93.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC90E1BC4AB59003C9C93 /* Level-93.json */; };
+		DB0FC9A51BC4AB59003C9C93 /* Level-94.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC90F1BC4AB59003C9C93 /* Level-94.json */; };
+		DB0FC9A61BC4AB59003C9C93 /* Level-95.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9101BC4AB59003C9C93 /* Level-95.json */; };
+		DB0FC9A71BC4AB59003C9C93 /* Level-96.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9111BC4AB59003C9C93 /* Level-96.json */; };
+		DB0FC9A81BC4AB59003C9C93 /* Level-97.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9121BC4AB59003C9C93 /* Level-97.json */; };
+		DB0FC9A91BC4AB5A003C9C93 /* Level-98.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9131BC4AB59003C9C93 /* Level-98.json */; };
+		DB0FC9AA1BC4AB5A003C9C93 /* Level-99.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9141BC4AB59003C9C93 /* Level-99.json */; };
+		DB0FC9BE1BC4ABBE003C9C93 /* failure3.wav in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9B91BC4ABBE003C9C93 /* failure3.wav */; };
+		DB0FC9BF1BC4ABBE003C9C93 /* move.wav in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9BA1BC4ABBE003C9C93 /* move.wav */; };
+		DB0FC9C01BC4ABBE003C9C93 /* pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9BB1BC4ABBE003C9C93 /* pop.wav */; };
+		DB0FC9C11BC4ABBE003C9C93 /* teleport.wav in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9BC1BC4ABBE003C9C93 /* teleport.wav */; };
+		DB0FC9C21BC4ABBE003C9C93 /* toggle.wav in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9BD1BC4ABBE003C9C93 /* toggle.wav */; };
+		DB0FC9C91BC4ABF4003C9C93 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FC9C41BC4ABF4003C9C93 /* Functions.swift */; };
+		DB0FC9CA1BC4ABF4003C9C93 /* GameKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FC9C51BC4ABF4003C9C93 /* GameKitHelper.swift */; };
+		DB0FC9CC1BC4ABF4003C9C93 /* ScoreKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FC9C71BC4ABF4003C9C93 /* ScoreKeeper.swift */; };
+		DB0FC9CD1BC4ABF4003C9C93 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FC9C81BC4ABF4003C9C93 /* SwiftyJSON.swift */; };
+		DB0FC9DA1BC4AC12003C9C93 /* gameOverButtons.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9D01BC4AC12003C9C93 /* gameOverButtons.atlas */; };
+		DB0FC9DB1BC4AC12003C9C93 /* gameScene.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9D11BC4AC12003C9C93 /* gameScene.atlas */; };
+		DB0FC9DC1BC4AC12003C9C93 /* levelSelect.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9D21BC4AC12003C9C93 /* levelSelect.atlas */; };
+		DB0FC9DD1BC4AC12003C9C93 /* mainMenu.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9D31BC4AC12003C9C93 /* mainMenu.atlas */; };
+		DB0FC9DE1BC4AC12003C9C93 /* tHero_in.png in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9D41BC4AC12003C9C93 /* tHero_in.png */; };
+		DB0FC9DF1BC4AC12003C9C93 /* tHero_in@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9D51BC4AC12003C9C93 /* tHero_in@2x.png */; };
+		DB0FC9E01BC4AC12003C9C93 /* tHero_out.png in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9D61BC4AC12003C9C93 /* tHero_out.png */; };
+		DB0FC9E11BC4AC12003C9C93 /* tHero_out@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9D71BC4AC12003C9C93 /* tHero_out@2x.png */; };
+		DB0FC9E21BC4AC12003C9C93 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9D81BC4AC12003C9C93 /* title.png */; };
+		DB0FC9E31BC4AC12003C9C93 /* title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB0FC9D91BC4AC12003C9C93 /* title@2x.png */; };
+		DB0FCA121BC4ACF7003C9C93 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FCA031BC4ACF7003C9C93 /* Buttons.swift */; };
+		DB0FCA131BC4ACF7003C9C93 /* LevelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FCA041BC4ACF7003C9C93 /* LevelButton.swift */; };
+		DB0FCA141BC4ACF7003C9C93 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FCA051BC4ACF7003C9C93 /* ToggleButton.swift */; };
+		DB0FCA151BC4ACF7003C9C93 /* TouchesMovedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FCA061BC4ACF7003C9C93 /* TouchesMovedButton.swift */; };
+		DB0FCA161BC4ACF7003C9C93 /* CurrentSceneHUDSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FCA071BC4ACF7003C9C93 /* CurrentSceneHUDSprite.swift */; };
+		DB0FCA171BC4ACF7003C9C93 /* DestroyFloor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FCA091BC4ACF7003C9C93 /* DestroyFloor.swift */; };
+		DB0FCA181BC4ACF7003C9C93 /* Floor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FCA0A1BC4ACF7003C9C93 /* Floor.swift */; };
+		DB0FCA191BC4ACF7003C9C93 /* ForceMoveFloor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FCA0B1BC4ACF7003C9C93 /* ForceMoveFloor.swift */; };
+		DB0FCA1A1BC4ACF7003C9C93 /* HealFloor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FCA0C1BC4ACF7003C9C93 /* HealFloor.swift */; };
+		DB0FCA1B1BC4ACF7003C9C93 /* MultiTouchFloor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FCA0D1BC4ACF7003C9C93 /* MultiTouchFloor.swift */; };
+		DB0FCA1C1BC4ACF7003C9C93 /* TeleportFloor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FCA0E1BC4ACF7003C9C93 /* TeleportFloor.swift */; };
+		DB0FCA1D1BC4ACF7003C9C93 /* ToggleFloor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FCA0F1BC4ACF7003C9C93 /* ToggleFloor.swift */; };
+		DB0FCA1E1BC4ACF7003C9C93 /* GridLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FCA101BC4ACF7003C9C93 /* GridLayer.swift */; };
+		DB0FCA1F1BC4ACF7003C9C93 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FCA111BC4ACF7003C9C93 /* Hero.swift */; };
+		DB0FCA291BC4AD87003C9C93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0FCA281BC4AD87003C9C93 /* Images.xcassets */; };
+		DB0FCA2D1BC4AD90003C9C93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0FCA2B1BC4AD90003C9C93 /* Main.storyboard */; };
+		DB0FCA2F1BC4AD9B003C9C93 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FCA2E1BC4AD9B003C9C93 /* GameViewController.swift */; };
+		DB0FCA311BC4ADA1003C9C93 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB0FCA301BC4ADA1003C9C93 /* LaunchScreen.xib */; };
+		DB0FCA331BC4ADAF003C9C93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FCA321BC4ADAF003C9C93 /* AppDelegate.swift */; };
+		DB0FCA3A1BC4ADD9003C9C93 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FCA351BC4ADD9003C9C93 /* GameScene.swift */; };
+		DB0FCA3B1BC4ADD9003C9C93 /* LevelSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FCA361BC4ADD9003C9C93 /* LevelSelect.swift */; };
+		DB0FCA3C1BC4ADD9003C9C93 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FCA371BC4ADD9003C9C93 /* MainMenu.swift */; };
+		DB0FCA3D1BC4ADD9003C9C93 /* TimeAttack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FCA381BC4ADD9003C9C93 /* TimeAttack.swift */; };
+		DB0FCA3E1BC4ADD9003C9C93 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FCA391BC4ADD9003C9C93 /* Tutorial.swift */; };
+		DB0FCA401BC4AE31003C9C93 /* GameTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FCA3F1BC4AE31003C9C93 /* GameTitle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB0FC86F1BC4AAD6003C9C93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB0FC84D1BC4AAD6003C9C93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB0FC8541BC4AAD6003C9C93;
+			remoteInfo = Game3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB0FC8551BC4AAD6003C9C93 /* Game3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Game3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0FC8591BC4AAD6003C9C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB0FC86E1BC4AAD6003C9C93 /* Game3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Game3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0FC8731BC4AAD6003C9C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB0FC8741BC4AAD6003C9C93 /* Game3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game3Tests.swift; sourceTree = "<group>"; };
+		DB0FC87F1BC4AB59003C9C93 /* Level-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-1.json"; sourceTree = "<group>"; };
+		DB0FC8801BC4AB59003C9C93 /* Level-10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-10.json"; sourceTree = "<group>"; };
+		DB0FC8811BC4AB59003C9C93 /* Level-100.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-100.json"; sourceTree = "<group>"; };
+		DB0FC8821BC4AB59003C9C93 /* Level-101.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-101.json"; sourceTree = "<group>"; };
+		DB0FC8831BC4AB59003C9C93 /* Level-102.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-102.json"; sourceTree = "<group>"; };
+		DB0FC8841BC4AB59003C9C93 /* Level-103.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-103.json"; sourceTree = "<group>"; };
+		DB0FC8851BC4AB59003C9C93 /* Level-104.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-104.json"; sourceTree = "<group>"; };
+		DB0FC8861BC4AB59003C9C93 /* Level-105.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-105.json"; sourceTree = "<group>"; };
+		DB0FC8871BC4AB59003C9C93 /* Level-106.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-106.json"; sourceTree = "<group>"; };
+		DB0FC8881BC4AB59003C9C93 /* Level-107.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-107.json"; sourceTree = "<group>"; };
+		DB0FC8891BC4AB59003C9C93 /* Level-108.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-108.json"; sourceTree = "<group>"; };
+		DB0FC88A1BC4AB59003C9C93 /* Level-109.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-109.json"; sourceTree = "<group>"; };
+		DB0FC88B1BC4AB59003C9C93 /* Level-11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-11.json"; sourceTree = "<group>"; };
+		DB0FC88C1BC4AB59003C9C93 /* Level-110.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-110.json"; sourceTree = "<group>"; };
+		DB0FC88D1BC4AB59003C9C93 /* Level-111.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-111.json"; sourceTree = "<group>"; };
+		DB0FC88E1BC4AB59003C9C93 /* Level-112.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-112.json"; sourceTree = "<group>"; };
+		DB0FC88F1BC4AB59003C9C93 /* Level-113.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-113.json"; sourceTree = "<group>"; };
+		DB0FC8901BC4AB59003C9C93 /* Level-114.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-114.json"; sourceTree = "<group>"; };
+		DB0FC8911BC4AB59003C9C93 /* Level-115.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-115.json"; sourceTree = "<group>"; };
+		DB0FC8921BC4AB59003C9C93 /* Level-116.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-116.json"; sourceTree = "<group>"; };
+		DB0FC8931BC4AB59003C9C93 /* Level-117.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-117.json"; sourceTree = "<group>"; };
+		DB0FC8941BC4AB59003C9C93 /* Level-118.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-118.json"; sourceTree = "<group>"; };
+		DB0FC8951BC4AB59003C9C93 /* Level-119.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-119.json"; sourceTree = "<group>"; };
+		DB0FC8961BC4AB59003C9C93 /* Level-12.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-12.json"; sourceTree = "<group>"; };
+		DB0FC8971BC4AB59003C9C93 /* Level-120.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-120.json"; sourceTree = "<group>"; };
+		DB0FC8981BC4AB59003C9C93 /* Level-121.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-121.json"; sourceTree = "<group>"; };
+		DB0FC8991BC4AB59003C9C93 /* Level-122.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-122.json"; sourceTree = "<group>"; };
+		DB0FC89A1BC4AB59003C9C93 /* Level-123.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-123.json"; sourceTree = "<group>"; };
+		DB0FC89B1BC4AB59003C9C93 /* Level-124.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-124.json"; sourceTree = "<group>"; };
+		DB0FC89C1BC4AB59003C9C93 /* Level-125.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-125.json"; sourceTree = "<group>"; };
+		DB0FC89D1BC4AB59003C9C93 /* Level-126.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-126.json"; sourceTree = "<group>"; };
+		DB0FC89E1BC4AB59003C9C93 /* Level-127.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-127.json"; sourceTree = "<group>"; };
+		DB0FC89F1BC4AB59003C9C93 /* Level-128.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-128.json"; sourceTree = "<group>"; };
+		DB0FC8A01BC4AB59003C9C93 /* Level-129.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-129.json"; sourceTree = "<group>"; };
+		DB0FC8A11BC4AB59003C9C93 /* Level-13.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-13.json"; sourceTree = "<group>"; };
+		DB0FC8A21BC4AB59003C9C93 /* Level-130.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-130.json"; sourceTree = "<group>"; };
+		DB0FC8A31BC4AB59003C9C93 /* Level-131.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-131.json"; sourceTree = "<group>"; };
+		DB0FC8A41BC4AB59003C9C93 /* Level-132.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-132.json"; sourceTree = "<group>"; };
+		DB0FC8A51BC4AB59003C9C93 /* Level-133.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-133.json"; sourceTree = "<group>"; };
+		DB0FC8A61BC4AB59003C9C93 /* Level-134.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-134.json"; sourceTree = "<group>"; };
+		DB0FC8A71BC4AB59003C9C93 /* Level-135.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-135.json"; sourceTree = "<group>"; };
+		DB0FC8A81BC4AB59003C9C93 /* Level-136.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-136.json"; sourceTree = "<group>"; };
+		DB0FC8A91BC4AB59003C9C93 /* Level-137.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-137.json"; sourceTree = "<group>"; };
+		DB0FC8AA1BC4AB59003C9C93 /* Level-138.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-138.json"; sourceTree = "<group>"; };
+		DB0FC8AB1BC4AB59003C9C93 /* Level-139.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-139.json"; sourceTree = "<group>"; };
+		DB0FC8AC1BC4AB59003C9C93 /* Level-14.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-14.json"; sourceTree = "<group>"; };
+		DB0FC8AD1BC4AB59003C9C93 /* Level-140.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-140.json"; sourceTree = "<group>"; };
+		DB0FC8AE1BC4AB59003C9C93 /* Level-141.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-141.json"; sourceTree = "<group>"; };
+		DB0FC8AF1BC4AB59003C9C93 /* Level-142.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-142.json"; sourceTree = "<group>"; };
+		DB0FC8B01BC4AB59003C9C93 /* Level-143.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-143.json"; sourceTree = "<group>"; };
+		DB0FC8B11BC4AB59003C9C93 /* Level-144.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-144.json"; sourceTree = "<group>"; };
+		DB0FC8B21BC4AB59003C9C93 /* Level-145.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-145.json"; sourceTree = "<group>"; };
+		DB0FC8B31BC4AB59003C9C93 /* Level-146.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-146.json"; sourceTree = "<group>"; };
+		DB0FC8B41BC4AB59003C9C93 /* Level-147.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-147.json"; sourceTree = "<group>"; };
+		DB0FC8B51BC4AB59003C9C93 /* Level-148.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-148.json"; sourceTree = "<group>"; };
+		DB0FC8B61BC4AB59003C9C93 /* Level-149.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-149.json"; sourceTree = "<group>"; };
+		DB0FC8B71BC4AB59003C9C93 /* Level-15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-15.json"; sourceTree = "<group>"; };
+		DB0FC8B81BC4AB59003C9C93 /* Level-150.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-150.json"; sourceTree = "<group>"; };
+		DB0FC8B91BC4AB59003C9C93 /* Level-16.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-16.json"; sourceTree = "<group>"; };
+		DB0FC8BA1BC4AB59003C9C93 /* Level-17.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-17.json"; sourceTree = "<group>"; };
+		DB0FC8BB1BC4AB59003C9C93 /* Level-18.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-18.json"; sourceTree = "<group>"; };
+		DB0FC8BC1BC4AB59003C9C93 /* Level-19.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-19.json"; sourceTree = "<group>"; };
+		DB0FC8BD1BC4AB59003C9C93 /* Level-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-2.json"; sourceTree = "<group>"; };
+		DB0FC8BE1BC4AB59003C9C93 /* Level-20.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-20.json"; sourceTree = "<group>"; };
+		DB0FC8BF1BC4AB59003C9C93 /* Level-21.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-21.json"; sourceTree = "<group>"; };
+		DB0FC8C01BC4AB59003C9C93 /* Level-22.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-22.json"; sourceTree = "<group>"; };
+		DB0FC8C11BC4AB59003C9C93 /* Level-23.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-23.json"; sourceTree = "<group>"; };
+		DB0FC8C21BC4AB59003C9C93 /* Level-24.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-24.json"; sourceTree = "<group>"; };
+		DB0FC8C31BC4AB59003C9C93 /* Level-25.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-25.json"; sourceTree = "<group>"; };
+		DB0FC8C41BC4AB59003C9C93 /* Level-26.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-26.json"; sourceTree = "<group>"; };
+		DB0FC8C51BC4AB59003C9C93 /* Level-27.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-27.json"; sourceTree = "<group>"; };
+		DB0FC8C61BC4AB59003C9C93 /* Level-28.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-28.json"; sourceTree = "<group>"; };
+		DB0FC8C71BC4AB59003C9C93 /* Level-29.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-29.json"; sourceTree = "<group>"; };
+		DB0FC8C81BC4AB59003C9C93 /* Level-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-3.json"; sourceTree = "<group>"; };
+		DB0FC8C91BC4AB59003C9C93 /* Level-30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-30.json"; sourceTree = "<group>"; };
+		DB0FC8CA1BC4AB59003C9C93 /* Level-31.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-31.json"; sourceTree = "<group>"; };
+		DB0FC8CB1BC4AB59003C9C93 /* Level-32.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-32.json"; sourceTree = "<group>"; };
+		DB0FC8CC1BC4AB59003C9C93 /* Level-33.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-33.json"; sourceTree = "<group>"; };
+		DB0FC8CD1BC4AB59003C9C93 /* Level-34.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-34.json"; sourceTree = "<group>"; };
+		DB0FC8CE1BC4AB59003C9C93 /* Level-35.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-35.json"; sourceTree = "<group>"; };
+		DB0FC8CF1BC4AB59003C9C93 /* Level-36.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-36.json"; sourceTree = "<group>"; };
+		DB0FC8D01BC4AB59003C9C93 /* Level-37.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-37.json"; sourceTree = "<group>"; };
+		DB0FC8D11BC4AB59003C9C93 /* Level-38.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-38.json"; sourceTree = "<group>"; };
+		DB0FC8D21BC4AB59003C9C93 /* Level-39.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-39.json"; sourceTree = "<group>"; };
+		DB0FC8D31BC4AB59003C9C93 /* Level-4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-4.json"; sourceTree = "<group>"; };
+		DB0FC8D41BC4AB59003C9C93 /* Level-40.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-40.json"; sourceTree = "<group>"; };
+		DB0FC8D51BC4AB59003C9C93 /* Level-41.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-41.json"; sourceTree = "<group>"; };
+		DB0FC8D61BC4AB59003C9C93 /* Level-42.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-42.json"; sourceTree = "<group>"; };
+		DB0FC8D71BC4AB59003C9C93 /* Level-43.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-43.json"; sourceTree = "<group>"; };
+		DB0FC8D81BC4AB59003C9C93 /* Level-44.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-44.json"; sourceTree = "<group>"; };
+		DB0FC8D91BC4AB59003C9C93 /* Level-45.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-45.json"; sourceTree = "<group>"; };
+		DB0FC8DA1BC4AB59003C9C93 /* Level-46.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-46.json"; sourceTree = "<group>"; };
+		DB0FC8DB1BC4AB59003C9C93 /* Level-47.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-47.json"; sourceTree = "<group>"; };
+		DB0FC8DC1BC4AB59003C9C93 /* Level-48.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-48.json"; sourceTree = "<group>"; };
+		DB0FC8DD1BC4AB59003C9C93 /* Level-49.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-49.json"; sourceTree = "<group>"; };
+		DB0FC8DE1BC4AB59003C9C93 /* Level-5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-5.json"; sourceTree = "<group>"; };
+		DB0FC8DF1BC4AB59003C9C93 /* Level-50.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-50.json"; sourceTree = "<group>"; };
+		DB0FC8E01BC4AB59003C9C93 /* Level-51.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-51.json"; sourceTree = "<group>"; };
+		DB0FC8E11BC4AB59003C9C93 /* Level-52.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-52.json"; sourceTree = "<group>"; };
+		DB0FC8E21BC4AB59003C9C93 /* Level-53.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-53.json"; sourceTree = "<group>"; };
+		DB0FC8E31BC4AB59003C9C93 /* Level-54.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-54.json"; sourceTree = "<group>"; };
+		DB0FC8E41BC4AB59003C9C93 /* Level-55.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-55.json"; sourceTree = "<group>"; };
+		DB0FC8E51BC4AB59003C9C93 /* Level-56.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-56.json"; sourceTree = "<group>"; };
+		DB0FC8E61BC4AB59003C9C93 /* Level-57.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-57.json"; sourceTree = "<group>"; };
+		DB0FC8E71BC4AB59003C9C93 /* Level-58.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-58.json"; sourceTree = "<group>"; };
+		DB0FC8E81BC4AB59003C9C93 /* Level-59.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-59.json"; sourceTree = "<group>"; };
+		DB0FC8E91BC4AB59003C9C93 /* Level-6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-6.json"; sourceTree = "<group>"; };
+		DB0FC8EA1BC4AB59003C9C93 /* Level-60.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-60.json"; sourceTree = "<group>"; };
+		DB0FC8EB1BC4AB59003C9C93 /* Level-61.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-61.json"; sourceTree = "<group>"; };
+		DB0FC8EC1BC4AB59003C9C93 /* Level-62.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-62.json"; sourceTree = "<group>"; };
+		DB0FC8ED1BC4AB59003C9C93 /* Level-63.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-63.json"; sourceTree = "<group>"; };
+		DB0FC8EE1BC4AB59003C9C93 /* Level-64.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-64.json"; sourceTree = "<group>"; };
+		DB0FC8EF1BC4AB59003C9C93 /* Level-65.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-65.json"; sourceTree = "<group>"; };
+		DB0FC8F01BC4AB59003C9C93 /* Level-66.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-66.json"; sourceTree = "<group>"; };
+		DB0FC8F11BC4AB59003C9C93 /* Level-67.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-67.json"; sourceTree = "<group>"; };
+		DB0FC8F21BC4AB59003C9C93 /* Level-68.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-68.json"; sourceTree = "<group>"; };
+		DB0FC8F31BC4AB59003C9C93 /* Level-69.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-69.json"; sourceTree = "<group>"; };
+		DB0FC8F41BC4AB59003C9C93 /* Level-7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-7.json"; sourceTree = "<group>"; };
+		DB0FC8F51BC4AB59003C9C93 /* Level-70.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-70.json"; sourceTree = "<group>"; };
+		DB0FC8F61BC4AB59003C9C93 /* Level-71.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-71.json"; sourceTree = "<group>"; };
+		DB0FC8F71BC4AB59003C9C93 /* Level-72.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-72.json"; sourceTree = "<group>"; };
+		DB0FC8F81BC4AB59003C9C93 /* Level-73.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-73.json"; sourceTree = "<group>"; };
+		DB0FC8F91BC4AB59003C9C93 /* Level-74.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-74.json"; sourceTree = "<group>"; };
+		DB0FC8FA1BC4AB59003C9C93 /* Level-75.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-75.json"; sourceTree = "<group>"; };
+		DB0FC8FB1BC4AB59003C9C93 /* Level-76.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-76.json"; sourceTree = "<group>"; };
+		DB0FC8FC1BC4AB59003C9C93 /* Level-77.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-77.json"; sourceTree = "<group>"; };
+		DB0FC8FD1BC4AB59003C9C93 /* Level-78.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-78.json"; sourceTree = "<group>"; };
+		DB0FC8FE1BC4AB59003C9C93 /* Level-79.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-79.json"; sourceTree = "<group>"; };
+		DB0FC8FF1BC4AB59003C9C93 /* Level-8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-8.json"; sourceTree = "<group>"; };
+		DB0FC9001BC4AB59003C9C93 /* Level-80.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-80.json"; sourceTree = "<group>"; };
+		DB0FC9011BC4AB59003C9C93 /* Level-81.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-81.json"; sourceTree = "<group>"; };
+		DB0FC9021BC4AB59003C9C93 /* Level-82.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-82.json"; sourceTree = "<group>"; };
+		DB0FC9031BC4AB59003C9C93 /* Level-83.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-83.json"; sourceTree = "<group>"; };
+		DB0FC9041BC4AB59003C9C93 /* Level-84.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-84.json"; sourceTree = "<group>"; };
+		DB0FC9051BC4AB59003C9C93 /* Level-85.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-85.json"; sourceTree = "<group>"; };
+		DB0FC9061BC4AB59003C9C93 /* Level-86.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-86.json"; sourceTree = "<group>"; };
+		DB0FC9071BC4AB59003C9C93 /* Level-87.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-87.json"; sourceTree = "<group>"; };
+		DB0FC9081BC4AB59003C9C93 /* Level-88.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-88.json"; sourceTree = "<group>"; };
+		DB0FC9091BC4AB59003C9C93 /* Level-89.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-89.json"; sourceTree = "<group>"; };
+		DB0FC90A1BC4AB59003C9C93 /* Level-9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-9.json"; sourceTree = "<group>"; };
+		DB0FC90B1BC4AB59003C9C93 /* Level-90.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-90.json"; sourceTree = "<group>"; };
+		DB0FC90C1BC4AB59003C9C93 /* Level-91.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-91.json"; sourceTree = "<group>"; };
+		DB0FC90D1BC4AB59003C9C93 /* Level-92.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-92.json"; sourceTree = "<group>"; };
+		DB0FC90E1BC4AB59003C9C93 /* Level-93.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-93.json"; sourceTree = "<group>"; };
+		DB0FC90F1BC4AB59003C9C93 /* Level-94.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-94.json"; sourceTree = "<group>"; };
+		DB0FC9101BC4AB59003C9C93 /* Level-95.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-95.json"; sourceTree = "<group>"; };
+		DB0FC9111BC4AB59003C9C93 /* Level-96.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-96.json"; sourceTree = "<group>"; };
+		DB0FC9121BC4AB59003C9C93 /* Level-97.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-97.json"; sourceTree = "<group>"; };
+		DB0FC9131BC4AB59003C9C93 /* Level-98.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-98.json"; sourceTree = "<group>"; };
+		DB0FC9141BC4AB59003C9C93 /* Level-99.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level-99.json"; sourceTree = "<group>"; };
+		DB0FC9B91BC4ABBE003C9C93 /* failure3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = failure3.wav; sourceTree = "<group>"; };
+		DB0FC9BA1BC4ABBE003C9C93 /* move.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = move.wav; sourceTree = "<group>"; };
+		DB0FC9BB1BC4ABBE003C9C93 /* pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop.wav; sourceTree = "<group>"; };
+		DB0FC9BC1BC4ABBE003C9C93 /* teleport.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = teleport.wav; sourceTree = "<group>"; };
+		DB0FC9BD1BC4ABBE003C9C93 /* toggle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = toggle.wav; sourceTree = "<group>"; };
+		DB0FC9C41BC4ABF4003C9C93 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		DB0FC9C51BC4ABF4003C9C93 /* GameKitHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameKitHelper.swift; sourceTree = "<group>"; };
+		DB0FC9C71BC4ABF4003C9C93 /* ScoreKeeper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreKeeper.swift; sourceTree = "<group>"; };
+		DB0FC9C81BC4ABF4003C9C93 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		DB0FC9D01BC4AC12003C9C93 /* gameOverButtons.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = gameOverButtons.atlas; sourceTree = "<group>"; };
+		DB0FC9D11BC4AC12003C9C93 /* gameScene.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = gameScene.atlas; sourceTree = "<group>"; };
+		DB0FC9D21BC4AC12003C9C93 /* levelSelect.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = levelSelect.atlas; sourceTree = "<group>"; };
+		DB0FC9D31BC4AC12003C9C93 /* mainMenu.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = mainMenu.atlas; sourceTree = "<group>"; };
+		DB0FC9D41BC4AC12003C9C93 /* tHero_in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tHero_in.png; sourceTree = "<group>"; };
+		DB0FC9D51BC4AC12003C9C93 /* tHero_in@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tHero_in@2x.png"; sourceTree = "<group>"; };
+		DB0FC9D61BC4AC12003C9C93 /* tHero_out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tHero_out.png; sourceTree = "<group>"; };
+		DB0FC9D71BC4AC12003C9C93 /* tHero_out@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tHero_out@2x.png"; sourceTree = "<group>"; };
+		DB0FC9D81BC4AC12003C9C93 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		DB0FC9D91BC4AC12003C9C93 /* title@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title@2x.png"; sourceTree = "<group>"; };
+		DB0FCA031BC4ACF7003C9C93 /* Buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		DB0FCA041BC4ACF7003C9C93 /* LevelButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelButton.swift; sourceTree = "<group>"; };
+		DB0FCA051BC4ACF7003C9C93 /* ToggleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		DB0FCA061BC4ACF7003C9C93 /* TouchesMovedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchesMovedButton.swift; sourceTree = "<group>"; };
+		DB0FCA071BC4ACF7003C9C93 /* CurrentSceneHUDSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentSceneHUDSprite.swift; sourceTree = "<group>"; };
+		DB0FCA091BC4ACF7003C9C93 /* DestroyFloor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestroyFloor.swift; sourceTree = "<group>"; };
+		DB0FCA0A1BC4ACF7003C9C93 /* Floor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Floor.swift; sourceTree = "<group>"; };
+		DB0FCA0B1BC4ACF7003C9C93 /* ForceMoveFloor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForceMoveFloor.swift; sourceTree = "<group>"; };
+		DB0FCA0C1BC4ACF7003C9C93 /* HealFloor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealFloor.swift; sourceTree = "<group>"; };
+		DB0FCA0D1BC4ACF7003C9C93 /* MultiTouchFloor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiTouchFloor.swift; sourceTree = "<group>"; };
+		DB0FCA0E1BC4ACF7003C9C93 /* TeleportFloor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeleportFloor.swift; sourceTree = "<group>"; };
+		DB0FCA0F1BC4ACF7003C9C93 /* ToggleFloor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleFloor.swift; sourceTree = "<group>"; };
+		DB0FCA101BC4ACF7003C9C93 /* GridLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayer.swift; sourceTree = "<group>"; };
+		DB0FCA111BC4ACF7003C9C93 /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		DB0FCA281BC4AD87003C9C93 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB0FCA2C1BC4AD90003C9C93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		DB0FCA2E1BC4AD9B003C9C93 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DB0FCA301BC4ADA1003C9C93 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		DB0FCA321BC4ADAF003C9C93 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB0FCA351BC4ADD9003C9C93 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DB0FCA361BC4ADD9003C9C93 /* LevelSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelSelect.swift; sourceTree = "<group>"; };
+		DB0FCA371BC4ADD9003C9C93 /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		DB0FCA381BC4ADD9003C9C93 /* TimeAttack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeAttack.swift; sourceTree = "<group>"; };
+		DB0FCA391BC4ADD9003C9C93 /* Tutorial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
+		DB0FCA3F1BC4AE31003C9C93 /* GameTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTitle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB0FC8521BC4AAD6003C9C93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0FC86B1BC4AAD6003C9C93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB0FC84C1BC4AAD6003C9C93 = {
+			isa = PBXGroup;
+			children = (
+				DB0FCA011BC4ACF7003C9C93 /* Entity */,
+				DB0FC9CE1BC4AC12003C9C93 /* Images */,
+				DB0FC9C31BC4ABF4003C9C93 /* Utility */,
+				DB0FC9B71BC4ABBE003C9C93 /* Music */,
+				DB0FC87E1BC4AB59003C9C93 /* Levels */,
+				DB0FCA341BC4ADD9003C9C93 /* Scenes */,
+				DB0FC8571BC4AAD6003C9C93 /* Game3 */,
+				DB0FC8711BC4AAD6003C9C93 /* Game3Tests */,
+				DB0FC8561BC4AAD6003C9C93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB0FC8561BC4AAD6003C9C93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB0FC8551BC4AAD6003C9C93 /* Game3.app */,
+				DB0FC86E1BC4AAD6003C9C93 /* Game3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB0FC8571BC4AAD6003C9C93 /* Game3 */ = {
+			isa = PBXGroup;
+			children = (
+				DB0FCA2E1BC4AD9B003C9C93 /* GameViewController.swift */,
+				DB0FCA321BC4ADAF003C9C93 /* AppDelegate.swift */,
+				DB0FCA301BC4ADA1003C9C93 /* LaunchScreen.xib */,
+				DB0FCA281BC4AD87003C9C93 /* Images.xcassets */,
+				DB0FCA2A1BC4AD90003C9C93 /* Base.lproj */,
+				DB0FC8581BC4AAD6003C9C93 /* Supporting Files */,
+			);
+			path = Game3;
+			sourceTree = "<group>";
+		};
+		DB0FC8581BC4AAD6003C9C93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB0FC8591BC4AAD6003C9C93 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB0FC8711BC4AAD6003C9C93 /* Game3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DB0FC8741BC4AAD6003C9C93 /* Game3Tests.swift */,
+				DB0FC8721BC4AAD6003C9C93 /* Supporting Files */,
+			);
+			path = Game3Tests;
+			sourceTree = "<group>";
+		};
+		DB0FC8721BC4AAD6003C9C93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB0FC8731BC4AAD6003C9C93 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB0FC87E1BC4AB59003C9C93 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				DB0FC87F1BC4AB59003C9C93 /* Level-1.json */,
+				DB0FC8801BC4AB59003C9C93 /* Level-10.json */,
+				DB0FC8811BC4AB59003C9C93 /* Level-100.json */,
+				DB0FC8821BC4AB59003C9C93 /* Level-101.json */,
+				DB0FC8831BC4AB59003C9C93 /* Level-102.json */,
+				DB0FC8841BC4AB59003C9C93 /* Level-103.json */,
+				DB0FC8851BC4AB59003C9C93 /* Level-104.json */,
+				DB0FC8861BC4AB59003C9C93 /* Level-105.json */,
+				DB0FC8871BC4AB59003C9C93 /* Level-106.json */,
+				DB0FC8881BC4AB59003C9C93 /* Level-107.json */,
+				DB0FC8891BC4AB59003C9C93 /* Level-108.json */,
+				DB0FC88A1BC4AB59003C9C93 /* Level-109.json */,
+				DB0FC88B1BC4AB59003C9C93 /* Level-11.json */,
+				DB0FC88C1BC4AB59003C9C93 /* Level-110.json */,
+				DB0FC88D1BC4AB59003C9C93 /* Level-111.json */,
+				DB0FC88E1BC4AB59003C9C93 /* Level-112.json */,
+				DB0FC88F1BC4AB59003C9C93 /* Level-113.json */,
+				DB0FC8901BC4AB59003C9C93 /* Level-114.json */,
+				DB0FC8911BC4AB59003C9C93 /* Level-115.json */,
+				DB0FC8921BC4AB59003C9C93 /* Level-116.json */,
+				DB0FC8931BC4AB59003C9C93 /* Level-117.json */,
+				DB0FC8941BC4AB59003C9C93 /* Level-118.json */,
+				DB0FC8951BC4AB59003C9C93 /* Level-119.json */,
+				DB0FC8961BC4AB59003C9C93 /* Level-12.json */,
+				DB0FC8971BC4AB59003C9C93 /* Level-120.json */,
+				DB0FC8981BC4AB59003C9C93 /* Level-121.json */,
+				DB0FC8991BC4AB59003C9C93 /* Level-122.json */,
+				DB0FC89A1BC4AB59003C9C93 /* Level-123.json */,
+				DB0FC89B1BC4AB59003C9C93 /* Level-124.json */,
+				DB0FC89C1BC4AB59003C9C93 /* Level-125.json */,
+				DB0FC89D1BC4AB59003C9C93 /* Level-126.json */,
+				DB0FC89E1BC4AB59003C9C93 /* Level-127.json */,
+				DB0FC89F1BC4AB59003C9C93 /* Level-128.json */,
+				DB0FC8A01BC4AB59003C9C93 /* Level-129.json */,
+				DB0FC8A11BC4AB59003C9C93 /* Level-13.json */,
+				DB0FC8A21BC4AB59003C9C93 /* Level-130.json */,
+				DB0FC8A31BC4AB59003C9C93 /* Level-131.json */,
+				DB0FC8A41BC4AB59003C9C93 /* Level-132.json */,
+				DB0FC8A51BC4AB59003C9C93 /* Level-133.json */,
+				DB0FC8A61BC4AB59003C9C93 /* Level-134.json */,
+				DB0FC8A71BC4AB59003C9C93 /* Level-135.json */,
+				DB0FC8A81BC4AB59003C9C93 /* Level-136.json */,
+				DB0FC8A91BC4AB59003C9C93 /* Level-137.json */,
+				DB0FC8AA1BC4AB59003C9C93 /* Level-138.json */,
+				DB0FC8AB1BC4AB59003C9C93 /* Level-139.json */,
+				DB0FC8AC1BC4AB59003C9C93 /* Level-14.json */,
+				DB0FC8AD1BC4AB59003C9C93 /* Level-140.json */,
+				DB0FC8AE1BC4AB59003C9C93 /* Level-141.json */,
+				DB0FC8AF1BC4AB59003C9C93 /* Level-142.json */,
+				DB0FC8B01BC4AB59003C9C93 /* Level-143.json */,
+				DB0FC8B11BC4AB59003C9C93 /* Level-144.json */,
+				DB0FC8B21BC4AB59003C9C93 /* Level-145.json */,
+				DB0FC8B31BC4AB59003C9C93 /* Level-146.json */,
+				DB0FC8B41BC4AB59003C9C93 /* Level-147.json */,
+				DB0FC8B51BC4AB59003C9C93 /* Level-148.json */,
+				DB0FC8B61BC4AB59003C9C93 /* Level-149.json */,
+				DB0FC8B71BC4AB59003C9C93 /* Level-15.json */,
+				DB0FC8B81BC4AB59003C9C93 /* Level-150.json */,
+				DB0FC8B91BC4AB59003C9C93 /* Level-16.json */,
+				DB0FC8BA1BC4AB59003C9C93 /* Level-17.json */,
+				DB0FC8BB1BC4AB59003C9C93 /* Level-18.json */,
+				DB0FC8BC1BC4AB59003C9C93 /* Level-19.json */,
+				DB0FC8BD1BC4AB59003C9C93 /* Level-2.json */,
+				DB0FC8BE1BC4AB59003C9C93 /* Level-20.json */,
+				DB0FC8BF1BC4AB59003C9C93 /* Level-21.json */,
+				DB0FC8C01BC4AB59003C9C93 /* Level-22.json */,
+				DB0FC8C11BC4AB59003C9C93 /* Level-23.json */,
+				DB0FC8C21BC4AB59003C9C93 /* Level-24.json */,
+				DB0FC8C31BC4AB59003C9C93 /* Level-25.json */,
+				DB0FC8C41BC4AB59003C9C93 /* Level-26.json */,
+				DB0FC8C51BC4AB59003C9C93 /* Level-27.json */,
+				DB0FC8C61BC4AB59003C9C93 /* Level-28.json */,
+				DB0FC8C71BC4AB59003C9C93 /* Level-29.json */,
+				DB0FC8C81BC4AB59003C9C93 /* Level-3.json */,
+				DB0FC8C91BC4AB59003C9C93 /* Level-30.json */,
+				DB0FC8CA1BC4AB59003C9C93 /* Level-31.json */,
+				DB0FC8CB1BC4AB59003C9C93 /* Level-32.json */,
+				DB0FC8CC1BC4AB59003C9C93 /* Level-33.json */,
+				DB0FC8CD1BC4AB59003C9C93 /* Level-34.json */,
+				DB0FC8CE1BC4AB59003C9C93 /* Level-35.json */,
+				DB0FC8CF1BC4AB59003C9C93 /* Level-36.json */,
+				DB0FC8D01BC4AB59003C9C93 /* Level-37.json */,
+				DB0FC8D11BC4AB59003C9C93 /* Level-38.json */,
+				DB0FC8D21BC4AB59003C9C93 /* Level-39.json */,
+				DB0FC8D31BC4AB59003C9C93 /* Level-4.json */,
+				DB0FC8D41BC4AB59003C9C93 /* Level-40.json */,
+				DB0FC8D51BC4AB59003C9C93 /* Level-41.json */,
+				DB0FC8D61BC4AB59003C9C93 /* Level-42.json */,
+				DB0FC8D71BC4AB59003C9C93 /* Level-43.json */,
+				DB0FC8D81BC4AB59003C9C93 /* Level-44.json */,
+				DB0FC8D91BC4AB59003C9C93 /* Level-45.json */,
+				DB0FC8DA1BC4AB59003C9C93 /* Level-46.json */,
+				DB0FC8DB1BC4AB59003C9C93 /* Level-47.json */,
+				DB0FC8DC1BC4AB59003C9C93 /* Level-48.json */,
+				DB0FC8DD1BC4AB59003C9C93 /* Level-49.json */,
+				DB0FC8DE1BC4AB59003C9C93 /* Level-5.json */,
+				DB0FC8DF1BC4AB59003C9C93 /* Level-50.json */,
+				DB0FC8E01BC4AB59003C9C93 /* Level-51.json */,
+				DB0FC8E11BC4AB59003C9C93 /* Level-52.json */,
+				DB0FC8E21BC4AB59003C9C93 /* Level-53.json */,
+				DB0FC8E31BC4AB59003C9C93 /* Level-54.json */,
+				DB0FC8E41BC4AB59003C9C93 /* Level-55.json */,
+				DB0FC8E51BC4AB59003C9C93 /* Level-56.json */,
+				DB0FC8E61BC4AB59003C9C93 /* Level-57.json */,
+				DB0FC8E71BC4AB59003C9C93 /* Level-58.json */,
+				DB0FC8E81BC4AB59003C9C93 /* Level-59.json */,
+				DB0FC8E91BC4AB59003C9C93 /* Level-6.json */,
+				DB0FC8EA1BC4AB59003C9C93 /* Level-60.json */,
+				DB0FC8EB1BC4AB59003C9C93 /* Level-61.json */,
+				DB0FC8EC1BC4AB59003C9C93 /* Level-62.json */,
+				DB0FC8ED1BC4AB59003C9C93 /* Level-63.json */,
+				DB0FC8EE1BC4AB59003C9C93 /* Level-64.json */,
+				DB0FC8EF1BC4AB59003C9C93 /* Level-65.json */,
+				DB0FC8F01BC4AB59003C9C93 /* Level-66.json */,
+				DB0FC8F11BC4AB59003C9C93 /* Level-67.json */,
+				DB0FC8F21BC4AB59003C9C93 /* Level-68.json */,
+				DB0FC8F31BC4AB59003C9C93 /* Level-69.json */,
+				DB0FC8F41BC4AB59003C9C93 /* Level-7.json */,
+				DB0FC8F51BC4AB59003C9C93 /* Level-70.json */,
+				DB0FC8F61BC4AB59003C9C93 /* Level-71.json */,
+				DB0FC8F71BC4AB59003C9C93 /* Level-72.json */,
+				DB0FC8F81BC4AB59003C9C93 /* Level-73.json */,
+				DB0FC8F91BC4AB59003C9C93 /* Level-74.json */,
+				DB0FC8FA1BC4AB59003C9C93 /* Level-75.json */,
+				DB0FC8FB1BC4AB59003C9C93 /* Level-76.json */,
+				DB0FC8FC1BC4AB59003C9C93 /* Level-77.json */,
+				DB0FC8FD1BC4AB59003C9C93 /* Level-78.json */,
+				DB0FC8FE1BC4AB59003C9C93 /* Level-79.json */,
+				DB0FC8FF1BC4AB59003C9C93 /* Level-8.json */,
+				DB0FC9001BC4AB59003C9C93 /* Level-80.json */,
+				DB0FC9011BC4AB59003C9C93 /* Level-81.json */,
+				DB0FC9021BC4AB59003C9C93 /* Level-82.json */,
+				DB0FC9031BC4AB59003C9C93 /* Level-83.json */,
+				DB0FC9041BC4AB59003C9C93 /* Level-84.json */,
+				DB0FC9051BC4AB59003C9C93 /* Level-85.json */,
+				DB0FC9061BC4AB59003C9C93 /* Level-86.json */,
+				DB0FC9071BC4AB59003C9C93 /* Level-87.json */,
+				DB0FC9081BC4AB59003C9C93 /* Level-88.json */,
+				DB0FC9091BC4AB59003C9C93 /* Level-89.json */,
+				DB0FC90A1BC4AB59003C9C93 /* Level-9.json */,
+				DB0FC90B1BC4AB59003C9C93 /* Level-90.json */,
+				DB0FC90C1BC4AB59003C9C93 /* Level-91.json */,
+				DB0FC90D1BC4AB59003C9C93 /* Level-92.json */,
+				DB0FC90E1BC4AB59003C9C93 /* Level-93.json */,
+				DB0FC90F1BC4AB59003C9C93 /* Level-94.json */,
+				DB0FC9101BC4AB59003C9C93 /* Level-95.json */,
+				DB0FC9111BC4AB59003C9C93 /* Level-96.json */,
+				DB0FC9121BC4AB59003C9C93 /* Level-97.json */,
+				DB0FC9131BC4AB59003C9C93 /* Level-98.json */,
+				DB0FC9141BC4AB59003C9C93 /* Level-99.json */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		DB0FC9B71BC4ABBE003C9C93 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				DB0FC9B81BC4ABBE003C9C93 /* Sound */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		DB0FC9B81BC4ABBE003C9C93 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				DB0FC9B91BC4ABBE003C9C93 /* failure3.wav */,
+				DB0FC9BA1BC4ABBE003C9C93 /* move.wav */,
+				DB0FC9BB1BC4ABBE003C9C93 /* pop.wav */,
+				DB0FC9BC1BC4ABBE003C9C93 /* teleport.wav */,
+				DB0FC9BD1BC4ABBE003C9C93 /* toggle.wav */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		DB0FC9C31BC4ABF4003C9C93 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				DB0FC9C41BC4ABF4003C9C93 /* Functions.swift */,
+				DB0FC9C51BC4ABF4003C9C93 /* GameKitHelper.swift */,
+				DB0FC9C71BC4ABF4003C9C93 /* ScoreKeeper.swift */,
+				DB0FC9C81BC4ABF4003C9C93 /* SwiftyJSON.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		DB0FC9CE1BC4AC12003C9C93 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DB0FC9CF1BC4AC12003C9C93 /* gameButtons.altas */,
+				DB0FC9D01BC4AC12003C9C93 /* gameOverButtons.atlas */,
+				DB0FC9D11BC4AC12003C9C93 /* gameScene.atlas */,
+				DB0FC9D21BC4AC12003C9C93 /* levelSelect.atlas */,
+				DB0FC9D31BC4AC12003C9C93 /* mainMenu.atlas */,
+				DB0FC9D41BC4AC12003C9C93 /* tHero_in.png */,
+				DB0FC9D51BC4AC12003C9C93 /* tHero_in@2x.png */,
+				DB0FC9D61BC4AC12003C9C93 /* tHero_out.png */,
+				DB0FC9D71BC4AC12003C9C93 /* tHero_out@2x.png */,
+				DB0FC9D81BC4AC12003C9C93 /* title.png */,
+				DB0FC9D91BC4AC12003C9C93 /* title@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		DB0FC9CF1BC4AC12003C9C93 /* gameButtons.altas */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = gameButtons.altas;
+			sourceTree = "<group>";
+		};
+		DB0FCA011BC4ACF7003C9C93 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				DB0FCA021BC4ACF7003C9C93 /* Button */,
+				DB0FCA081BC4ACF7003C9C93 /* Floor */,
+				DB0FCA101BC4ACF7003C9C93 /* GridLayer.swift */,
+				DB0FCA071BC4ACF7003C9C93 /* CurrentSceneHUDSprite.swift */,
+				DB0FCA3F1BC4AE31003C9C93 /* GameTitle.swift */,
+				DB0FCA111BC4ACF7003C9C93 /* Hero.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		DB0FCA021BC4ACF7003C9C93 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				DB0FCA031BC4ACF7003C9C93 /* Buttons.swift */,
+				DB0FCA041BC4ACF7003C9C93 /* LevelButton.swift */,
+				DB0FCA051BC4ACF7003C9C93 /* ToggleButton.swift */,
+				DB0FCA061BC4ACF7003C9C93 /* TouchesMovedButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		DB0FCA081BC4ACF7003C9C93 /* Floor */ = {
+			isa = PBXGroup;
+			children = (
+				DB0FCA091BC4ACF7003C9C93 /* DestroyFloor.swift */,
+				DB0FCA0A1BC4ACF7003C9C93 /* Floor.swift */,
+				DB0FCA0B1BC4ACF7003C9C93 /* ForceMoveFloor.swift */,
+				DB0FCA0C1BC4ACF7003C9C93 /* HealFloor.swift */,
+				DB0FCA0D1BC4ACF7003C9C93 /* MultiTouchFloor.swift */,
+				DB0FCA0E1BC4ACF7003C9C93 /* TeleportFloor.swift */,
+				DB0FCA0F1BC4ACF7003C9C93 /* ToggleFloor.swift */,
+			);
+			path = Floor;
+			sourceTree = "<group>";
+		};
+		DB0FCA2A1BC4AD90003C9C93 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				DB0FCA2B1BC4AD90003C9C93 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		DB0FCA341BC4ADD9003C9C93 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				DB0FCA351BC4ADD9003C9C93 /* GameScene.swift */,
+				DB0FCA361BC4ADD9003C9C93 /* LevelSelect.swift */,
+				DB0FCA371BC4ADD9003C9C93 /* MainMenu.swift */,
+				DB0FCA381BC4ADD9003C9C93 /* TimeAttack.swift */,
+				DB0FCA391BC4ADD9003C9C93 /* Tutorial.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB0FC8541BC4AAD6003C9C93 /* Game3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0FC8781BC4AAD6003C9C93 /* Build configuration list for PBXNativeTarget "Game3" */;
+			buildPhases = (
+				DB0FC8511BC4AAD6003C9C93 /* Sources */,
+				DB0FC8521BC4AAD6003C9C93 /* Frameworks */,
+				DB0FC8531BC4AAD6003C9C93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Game3;
+			productName = Game3;
+			productReference = DB0FC8551BC4AAD6003C9C93 /* Game3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB0FC86D1BC4AAD6003C9C93 /* Game3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0FC87B1BC4AAD6003C9C93 /* Build configuration list for PBXNativeTarget "Game3Tests" */;
+			buildPhases = (
+				DB0FC86A1BC4AAD6003C9C93 /* Sources */,
+				DB0FC86B1BC4AAD6003C9C93 /* Frameworks */,
+				DB0FC86C1BC4AAD6003C9C93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB0FC8701BC4AAD6003C9C93 /* PBXTargetDependency */,
+			);
+			name = Game3Tests;
+			productName = Game3Tests;
+			productReference = DB0FC86E1BC4AAD6003C9C93 /* Game3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB0FC84D1BC4AAD6003C9C93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Qi Feng Huang";
+				TargetAttributes = {
+					DB0FC8541BC4AAD6003C9C93 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DB0FC86D1BC4AAD6003C9C93 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DB0FC8541BC4AAD6003C9C93;
+					};
+				};
+			};
+			buildConfigurationList = DB0FC8501BC4AAD6003C9C93 /* Build configuration list for PBXProject "Game3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB0FC84C1BC4AAD6003C9C93;
+			productRefGroup = DB0FC8561BC4AAD6003C9C93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB0FC8541BC4AAD6003C9C93 /* Game3 */,
+				DB0FC86D1BC4AAD6003C9C93 /* Game3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB0FC8531BC4AAD6003C9C93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0FC9231BC4AB59003C9C93 /* Level-111.json in Resources */,
+				DB0FC9C11BC4ABBE003C9C93 /* teleport.wav in Resources */,
+				DB0FC9191BC4AB59003C9C93 /* Level-102.json in Resources */,
+				DB0FC9A51BC4AB59003C9C93 /* Level-94.json in Resources */,
+				DB0FC9671BC4AB59003C9C93 /* Level-38.json in Resources */,
+				DB0FC9711BC4AB59003C9C93 /* Level-47.json in Resources */,
+				DB0FC9641BC4AB59003C9C93 /* Level-35.json in Resources */,
+				DB0FC9271BC4AB59003C9C93 /* Level-115.json in Resources */,
+				DB0FC9BE1BC4ABBE003C9C93 /* failure3.wav in Resources */,
+				DB0FC97E1BC4AB59003C9C93 /* Level-59.json in Resources */,
+				DB0FC9871BC4AB59003C9C93 /* Level-67.json in Resources */,
+				DB0FC97C1BC4AB59003C9C93 /* Level-57.json in Resources */,
+				DB0FC94A1BC4AB59003C9C93 /* Level-147.json in Resources */,
+				DB0FC9941BC4AB59003C9C93 /* Level-79.json in Resources */,
+				DB0FC91F1BC4AB59003C9C93 /* Level-108.json in Resources */,
+				DB0FC9E01BC4AC12003C9C93 /* tHero_out.png in Resources */,
+				DB0FC95D1BC4AB59003C9C93 /* Level-29.json in Resources */,
+				DB0FCA291BC4AD87003C9C93 /* Images.xcassets in Resources */,
+				DB0FC9331BC4AB59003C9C93 /* Level-126.json in Resources */,
+				DB0FC9481BC4AB59003C9C93 /* Level-145.json in Resources */,
+				DB0FC97D1BC4AB59003C9C93 /* Level-58.json in Resources */,
+				DB0FC9411BC4AB59003C9C93 /* Level-139.json in Resources */,
+				DB0FC9A81BC4AB59003C9C93 /* Level-97.json in Resources */,
+				DB0FC91C1BC4AB59003C9C93 /* Level-105.json in Resources */,
+				DB0FC9421BC4AB59003C9C93 /* Level-14.json in Resources */,
+				DB0FC9531BC4AB59003C9C93 /* Level-2.json in Resources */,
+				DB0FC9991BC4AB59003C9C93 /* Level-83.json in Resources */,
+				DB0FC95F1BC4AB59003C9C93 /* Level-30.json in Resources */,
+				DB0FC9E11BC4AC12003C9C93 /* tHero_out@2x.png in Resources */,
+				DB0FC91D1BC4AB59003C9C93 /* Level-106.json in Resources */,
+				DB0FC9551BC4AB59003C9C93 /* Level-21.json in Resources */,
+				DB0FC9A31BC4AB59003C9C93 /* Level-92.json in Resources */,
+				DB0FC9351BC4AB59003C9C93 /* Level-128.json in Resources */,
+				DB0FC9151BC4AB59003C9C93 /* Level-1.json in Resources */,
+				DB0FC92F1BC4AB59003C9C93 /* Level-122.json in Resources */,
+				DB0FC9A11BC4AB59003C9C93 /* Level-90.json in Resources */,
+				DB0FC9211BC4AB59003C9C93 /* Level-11.json in Resources */,
+				DB0FC9781BC4AB59003C9C93 /* Level-53.json in Resources */,
+				DB0FC96F1BC4AB59003C9C93 /* Level-45.json in Resources */,
+				DB0FC97A1BC4AB59003C9C93 /* Level-55.json in Resources */,
+				DB0FC9C01BC4ABBE003C9C93 /* pop.wav in Resources */,
+				DB0FC94E1BC4AB59003C9C93 /* Level-150.json in Resources */,
+				DB0FC9571BC4AB59003C9C93 /* Level-23.json in Resources */,
+				DB0FC9301BC4AB59003C9C93 /* Level-123.json in Resources */,
+				DB0FC9201BC4AB59003C9C93 /* Level-109.json in Resources */,
+				DB0FC9931BC4AB59003C9C93 /* Level-78.json in Resources */,
+				DB0FC9251BC4AB59003C9C93 /* Level-113.json in Resources */,
+				DB0FC9981BC4AB59003C9C93 /* Level-82.json in Resources */,
+				DB0FC9AA1BC4AB5A003C9C93 /* Level-99.json in Resources */,
+				DB0FC93B1BC4AB59003C9C93 /* Level-133.json in Resources */,
+				DB0FC9631BC4AB59003C9C93 /* Level-34.json in Resources */,
+				DB0FC9921BC4AB59003C9C93 /* Level-77.json in Resources */,
+				DB0FCA311BC4ADA1003C9C93 /* LaunchScreen.xib in Resources */,
+				DB0FC98F1BC4AB59003C9C93 /* Level-74.json in Resources */,
+				DB0FC9881BC4AB59003C9C93 /* Level-68.json in Resources */,
+				DB0FC98D1BC4AB59003C9C93 /* Level-72.json in Resources */,
+				DB0FC93F1BC4AB59003C9C93 /* Level-137.json in Resources */,
+				DB0FC9471BC4AB59003C9C93 /* Level-144.json in Resources */,
+				DB0FC9681BC4AB59003C9C93 /* Level-39.json in Resources */,
+				DB0FC9DF1BC4AC12003C9C93 /* tHero_in@2x.png in Resources */,
+				DB0FC9A21BC4AB59003C9C93 /* Level-91.json in Resources */,
+				DB0FC9E31BC4AC12003C9C93 /* title@2x.png in Resources */,
+				DB0FC92D1BC4AB59003C9C93 /* Level-120.json in Resources */,
+				DB0FC98E1BC4AB59003C9C93 /* Level-73.json in Resources */,
+				DB0FC93A1BC4AB59003C9C93 /* Level-132.json in Resources */,
+				DB0FC98C1BC4AB59003C9C93 /* Level-71.json in Resources */,
+				DB0FC9A41BC4AB59003C9C93 /* Level-93.json in Resources */,
+				DB0FC9A91BC4AB5A003C9C93 /* Level-98.json in Resources */,
+				DB0FC96D1BC4AB59003C9C93 /* Level-43.json in Resources */,
+				DB0FC9591BC4AB59003C9C93 /* Level-25.json in Resources */,
+				DB0FC9611BC4AB59003C9C93 /* Level-32.json in Resources */,
+				DB0FC9961BC4AB59003C9C93 /* Level-80.json in Resources */,
+				DB0FC9261BC4AB59003C9C93 /* Level-114.json in Resources */,
+				DB0FC9181BC4AB59003C9C93 /* Level-101.json in Resources */,
+				DB0FC9761BC4AB59003C9C93 /* Level-51.json in Resources */,
+				DB0FC9BF1BC4ABBE003C9C93 /* move.wav in Resources */,
+				DB0FC9361BC4AB59003C9C93 /* Level-129.json in Resources */,
+				DB0FC9701BC4AB59003C9C93 /* Level-46.json in Resources */,
+				DB0FC9661BC4AB59003C9C93 /* Level-37.json in Resources */,
+				DB0FC9311BC4AB59003C9C93 /* Level-124.json in Resources */,
+				DB0FC96C1BC4AB59003C9C93 /* Level-42.json in Resources */,
+				DB0FC95A1BC4AB59003C9C93 /* Level-26.json in Resources */,
+				DB0FC9841BC4AB59003C9C93 /* Level-64.json in Resources */,
+				DB0FC9DA1BC4AC12003C9C93 /* gameOverButtons.atlas in Resources */,
+				DB0FC9741BC4AB59003C9C93 /* Level-5.json in Resources */,
+				DB0FC9A01BC4AB59003C9C93 /* Level-9.json in Resources */,
+				DB0FC99E1BC4AB59003C9C93 /* Level-88.json in Resources */,
+				DB0FC9621BC4AB59003C9C93 /* Level-33.json in Resources */,
+				DB0FC92B1BC4AB59003C9C93 /* Level-119.json in Resources */,
+				DB0FC91E1BC4AB59003C9C93 /* Level-107.json in Resources */,
+				DB0FC9161BC4AB59003C9C93 /* Level-10.json in Resources */,
+				DB0FC95C1BC4AB59003C9C93 /* Level-28.json in Resources */,
+				DB0FC9171BC4AB59003C9C93 /* Level-100.json in Resources */,
+				DB0FC9DE1BC4AC12003C9C93 /* tHero_in.png in Resources */,
+				DB0FC99B1BC4AB59003C9C93 /* Level-85.json in Resources */,
+				DB0FC9381BC4AB59003C9C93 /* Level-130.json in Resources */,
+				DB0FC9651BC4AB59003C9C93 /* Level-36.json in Resources */,
+				DB0FC9791BC4AB59003C9C93 /* Level-54.json in Resources */,
+				DB0FC95E1BC4AB59003C9C93 /* Level-3.json in Resources */,
+				DB0FC9DD1BC4AC12003C9C93 /* mainMenu.atlas in Resources */,
+				DB0FC9901BC4AB59003C9C93 /* Level-75.json in Resources */,
+				DB0FC9341BC4AB59003C9C93 /* Level-127.json in Resources */,
+				DB0FC94C1BC4AB59003C9C93 /* Level-149.json in Resources */,
+				DB0FCA2D1BC4AD90003C9C93 /* Main.storyboard in Resources */,
+				DB0FC9491BC4AB59003C9C93 /* Level-146.json in Resources */,
+				DB0FC9DC1BC4AC12003C9C93 /* levelSelect.atlas in Resources */,
+				DB0FC9391BC4AB59003C9C93 /* Level-131.json in Resources */,
+				DB0FC94B1BC4AB59003C9C93 /* Level-148.json in Resources */,
+				DB0FC98B1BC4AB59003C9C93 /* Level-70.json in Resources */,
+				DB0FC92A1BC4AB59003C9C93 /* Level-118.json in Resources */,
+				DB0FC9971BC4AB59003C9C93 /* Level-81.json in Resources */,
+				DB0FC9C21BC4ABBE003C9C93 /* toggle.wav in Resources */,
+				DB0FC9281BC4AB59003C9C93 /* Level-116.json in Resources */,
+				DB0FC9561BC4AB59003C9C93 /* Level-22.json in Resources */,
+				DB0FC9511BC4AB59003C9C93 /* Level-18.json in Resources */,
+				DB0FC9801BC4AB59003C9C93 /* Level-60.json in Resources */,
+				DB0FC9721BC4AB59003C9C93 /* Level-48.json in Resources */,
+				DB0FC94D1BC4AB59003C9C93 /* Level-15.json in Resources */,
+				DB0FC9441BC4AB59003C9C93 /* Level-141.json in Resources */,
+				DB0FC97B1BC4AB59003C9C93 /* Level-56.json in Resources */,
+				DB0FC9851BC4AB59003C9C93 /* Level-65.json in Resources */,
+				DB0FC95B1BC4AB59003C9C93 /* Level-27.json in Resources */,
+				DB0FC96A1BC4AB59003C9C93 /* Level-40.json in Resources */,
+				DB0FC9501BC4AB59003C9C93 /* Level-17.json in Resources */,
+				DB0FC9771BC4AB59003C9C93 /* Level-52.json in Resources */,
+				DB0FC9811BC4AB59003C9C93 /* Level-61.json in Resources */,
+				DB0FC9821BC4AB59003C9C93 /* Level-62.json in Resources */,
+				DB0FC9221BC4AB59003C9C93 /* Level-110.json in Resources */,
+				DB0FC94F1BC4AB59003C9C93 /* Level-16.json in Resources */,
+				DB0FC93D1BC4AB59003C9C93 /* Level-135.json in Resources */,
+				DB0FC9751BC4AB59003C9C93 /* Level-50.json in Resources */,
+				DB0FC99D1BC4AB59003C9C93 /* Level-87.json in Resources */,
+				DB0FC9601BC4AB59003C9C93 /* Level-31.json in Resources */,
+				DB0FC9371BC4AB59003C9C93 /* Level-13.json in Resources */,
+				DB0FC91A1BC4AB59003C9C93 /* Level-103.json in Resources */,
+				DB0FC96E1BC4AB59003C9C93 /* Level-44.json in Resources */,
+				DB0FC9731BC4AB59003C9C93 /* Level-49.json in Resources */,
+				DB0FC9291BC4AB59003C9C93 /* Level-117.json in Resources */,
+				DB0FC9951BC4AB59003C9C93 /* Level-8.json in Resources */,
+				DB0FC93E1BC4AB59003C9C93 /* Level-136.json in Resources */,
+				DB0FC99F1BC4AB59003C9C93 /* Level-89.json in Resources */,
+				DB0FC9A61BC4AB59003C9C93 /* Level-95.json in Resources */,
+				DB0FC9861BC4AB59003C9C93 /* Level-66.json in Resources */,
+				DB0FC9321BC4AB59003C9C93 /* Level-125.json in Resources */,
+				DB0FC93C1BC4AB59003C9C93 /* Level-134.json in Resources */,
+				DB0FC9911BC4AB59003C9C93 /* Level-76.json in Resources */,
+				DB0FC92C1BC4AB59003C9C93 /* Level-12.json in Resources */,
+				DB0FC92E1BC4AB59003C9C93 /* Level-121.json in Resources */,
+				DB0FC9431BC4AB59003C9C93 /* Level-140.json in Resources */,
+				DB0FC99C1BC4AB59003C9C93 /* Level-86.json in Resources */,
+				DB0FC9E21BC4AC12003C9C93 /* title.png in Resources */,
+				DB0FC9461BC4AB59003C9C93 /* Level-143.json in Resources */,
+				DB0FC99A1BC4AB59003C9C93 /* Level-84.json in Resources */,
+				DB0FC96B1BC4AB59003C9C93 /* Level-41.json in Resources */,
+				DB0FC91B1BC4AB59003C9C93 /* Level-104.json in Resources */,
+				DB0FC9241BC4AB59003C9C93 /* Level-112.json in Resources */,
+				DB0FC9891BC4AB59003C9C93 /* Level-69.json in Resources */,
+				DB0FC9541BC4AB59003C9C93 /* Level-20.json in Resources */,
+				DB0FC97F1BC4AB59003C9C93 /* Level-6.json in Resources */,
+				DB0FC9581BC4AB59003C9C93 /* Level-24.json in Resources */,
+				DB0FC98A1BC4AB59003C9C93 /* Level-7.json in Resources */,
+				DB0FC9691BC4AB59003C9C93 /* Level-4.json in Resources */,
+				DB0FC9451BC4AB59003C9C93 /* Level-142.json in Resources */,
+				DB0FC9DB1BC4AC12003C9C93 /* gameScene.atlas in Resources */,
+				DB0FC9831BC4AB59003C9C93 /* Level-63.json in Resources */,
+				DB0FC9A71BC4AB59003C9C93 /* Level-96.json in Resources */,
+				DB0FC9521BC4AB59003C9C93 /* Level-19.json in Resources */,
+				DB0FC9401BC4AB59003C9C93 /* Level-138.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0FC86C1BC4AAD6003C9C93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB0FC8511BC4AAD6003C9C93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0FCA1D1BC4ACF7003C9C93 /* ToggleFloor.swift in Sources */,
+				DB0FCA141BC4ACF7003C9C93 /* ToggleButton.swift in Sources */,
+				DB0FCA171BC4ACF7003C9C93 /* DestroyFloor.swift in Sources */,
+				DB0FCA1C1BC4ACF7003C9C93 /* TeleportFloor.swift in Sources */,
+				DB0FCA121BC4ACF7003C9C93 /* Buttons.swift in Sources */,
+				DB0FCA161BC4ACF7003C9C93 /* CurrentSceneHUDSprite.swift in Sources */,
+				DB0FCA1B1BC4ACF7003C9C93 /* MultiTouchFloor.swift in Sources */,
+				DB0FC9CC1BC4ABF4003C9C93 /* ScoreKeeper.swift in Sources */,
+				DB0FCA331BC4ADAF003C9C93 /* AppDelegate.swift in Sources */,
+				DB0FCA2F1BC4AD9B003C9C93 /* GameViewController.swift in Sources */,
+				DB0FCA1A1BC4ACF7003C9C93 /* HealFloor.swift in Sources */,
+				DB0FC9CA1BC4ABF4003C9C93 /* GameKitHelper.swift in Sources */,
+				DB0FCA3C1BC4ADD9003C9C93 /* MainMenu.swift in Sources */,
+				DB0FCA3A1BC4ADD9003C9C93 /* GameScene.swift in Sources */,
+				DB0FCA3E1BC4ADD9003C9C93 /* Tutorial.swift in Sources */,
+				DB0FCA1E1BC4ACF7003C9C93 /* GridLayer.swift in Sources */,
+				DB0FCA1F1BC4ACF7003C9C93 /* Hero.swift in Sources */,
+				DB0FCA181BC4ACF7003C9C93 /* Floor.swift in Sources */,
+				DB0FC9C91BC4ABF4003C9C93 /* Functions.swift in Sources */,
+				DB0FCA3D1BC4ADD9003C9C93 /* TimeAttack.swift in Sources */,
+				DB0FCA401BC4AE31003C9C93 /* GameTitle.swift in Sources */,
+				DB0FCA151BC4ACF7003C9C93 /* TouchesMovedButton.swift in Sources */,
+				DB0FCA131BC4ACF7003C9C93 /* LevelButton.swift in Sources */,
+				DB0FC9CD1BC4ABF4003C9C93 /* SwiftyJSON.swift in Sources */,
+				DB0FCA3B1BC4ADD9003C9C93 /* LevelSelect.swift in Sources */,
+				DB0FCA191BC4ACF7003C9C93 /* ForceMoveFloor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0FC86A1BC4AAD6003C9C93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0FC8751BC4AAD6003C9C93 /* Game3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB0FC8701BC4AAD6003C9C93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB0FC8541BC4AAD6003C9C93 /* Game3 */;
+			targetProxy = DB0FC86F1BC4AAD6003C9C93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB0FCA2B1BC4AD90003C9C93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB0FCA2C1BC4AD90003C9C93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB0FC8761BC4AAD6003C9C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB0FC8771BC4AAD6003C9C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB0FC8791BC4AAD6003C9C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Game3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB0FC87A1BC4AAD6003C9C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Game3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB0FC87C1BC4AAD6003C9C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Game3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Game3.app/Game3";
+			};
+			name = Debug;
+		};
+		DB0FC87D1BC4AAD6003C9C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Game3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Game3.app/Game3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB0FC8501BC4AAD6003C9C93 /* Build configuration list for PBXProject "Game3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0FC8761BC4AAD6003C9C93 /* Debug */,
+				DB0FC8771BC4AAD6003C9C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB0FC8781BC4AAD6003C9C93 /* Build configuration list for PBXNativeTarget "Game3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0FC8791BC4AAD6003C9C93 /* Debug */,
+				DB0FC87A1BC4AAD6003C9C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB0FC87B1BC4AAD6003C9C93 /* Build configuration list for PBXNativeTarget "Game3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0FC87C1BC4AAD6003C9C93 /* Debug */,
+				DB0FC87D1BC4AAD6003C9C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB0FC84D1BC4AAD6003C9C93 /* Project object */;
+}

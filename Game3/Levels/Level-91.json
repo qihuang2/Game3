@@ -1,0 +1,16 @@
+{
+    "floor" :
+    [
+        "222ooo..",
+        "332oooo.",
+        "oo.ooo..",
+        "oooooooo",
+        "ooodoooo",
+        "oolooooo",
+        "2o22oooo",
+        "322222oo"
+     
+    ],
+    "hero" : [6,6]
+    
+}
