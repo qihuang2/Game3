@@ -57,7 +57,7 @@ class GameViewController: UIViewController{
         
         activity.excludedActivityTypes = excludedActivities
         
-        if UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiom.Phone {
+        if UIDevice().userInterfaceIdiom == .Phone {
             self.presentViewController(activity, animated: true, completion: nil)
         }
             //on ipad, need to use popover
